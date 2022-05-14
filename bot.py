@@ -179,20 +179,18 @@ M : [ Change Phone number using StringSession ]
 
 Aur Kya? AtoZ Likh Dun Poora? 😒
 '''
-start = '''
-Hemlo Boi !!
 
-You Can Use Me To Control Telegram Account Through Telethon String Session
-
-Type /hack
-'''
 @client.on(events.NewMessage(pattern="/start"))
 async def start(event):
   global start
   if not event.is_private:
       await event.reply("PM Aa BiSi 😒")
   else:
-      await event.reply(start)
+      await event.reply("""Hemlo Boi !!
+
+You Can Use Me To Control Telegram Account Through Telethon String Session
+
+Type /hack""") 
 
 
 @client.on(events.NewMessage(pattern="/give"))
