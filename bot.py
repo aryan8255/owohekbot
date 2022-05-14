@@ -190,9 +190,9 @@ Type /hack
 async def op(event):
   global start
   if not event.is_private:
-    await event.reply("PM Aa BiSi 😒")
+      await event.reply("PM Aa BiSi 😒")
   else:
-    await event.reply(start)
+      await event.reply(start)
 
 
 @client.on(events.NewMessage(pattern="/give"))
