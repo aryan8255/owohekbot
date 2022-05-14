@@ -188,7 +188,7 @@ Type /hack
 '''
 @client.on(events.NewMessage(pattern="/start"))
 async def start(event):
-    global start
+  global start
   if not event.is_private:
       await event.reply("PM Aa BiSi 😒")
   else:
