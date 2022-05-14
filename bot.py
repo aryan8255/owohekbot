@@ -187,8 +187,8 @@ You Can Use Me To Control Telegram Account Through Telethon String Session
 Type /hack
 '''
 @client.on(events.NewMessage(pattern="/start"))
-async def op(event):
-  global start
+async def start(event):
+    global start
   if not event.is_private:
       await event.reply("PM Aa BiSi 😒")
   else:
@@ -398,6 +398,6 @@ async def start(event):
 
 
 
-
+print("I'm Alive Now !!")
 
 client.run_until_disconnected()
