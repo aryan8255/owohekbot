@@ -1,12 +1,6 @@
 {
     "name": "Hek Bot",
     "description": "Telethon String Controlar",
-    "logo": "",
-    "keywords": [
-        "",
-    ],
-    "website": "",
-    "success_url": "",
     "env": {
         "BOT_TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
